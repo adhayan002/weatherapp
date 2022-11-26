@@ -1,10 +1,11 @@
 body{
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .main{
-    background: rgba(0, 0,0, 0.7);
+    background: rgba(255, 255, 255, 0.7);
     border: 1px solid white;
     border-radius: 10%;
     margin-left: 33vw;
@@ -13,6 +14,17 @@ body{
     width: 35vw;
 }
 
+.display{
+    color: black;
+}
+.button{
+    padding: 10px; 
+    opacity: 50%;
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding:10px
+}
 .contain{
     display: flex;
     flex-direction: column;
@@ -23,4 +35,71 @@ body{
 
 .input{
     margin-top:1vh;
+}
+
+
+
+.inputValue{
+    color: black;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px; 
+    width: 20vw;
+    font-size: 1.2vw;
+}
+
+@media screen and (max-device-width:768px) {
+    body{
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    
+    .main{
+        background: rgba(255, 255, 255, 0.7);
+        border: 1px solid white;
+        border-radius: 10%;
+        margin-left: 15vw;
+        height: 40vh;
+        width: 70vw;
+    }
+    
+    .display{
+        color: black;
+    }
+    .Submit{
+        padding: 10px; 
+        opacity: 50%;
+        color: black;
+        border: 1px solid black;
+        border-radius: 25px;
+        padding:10px
+    }
+    .contain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        
+    }
+    
+    .input{
+        margin-top:1vh;
+    }
+    
+    
+    
+    .inputValue{
+        color: black;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px; 
+        width: 25vw;
+        font-size: 3vw;
+        height: 5vw;
+    }
+    
 }

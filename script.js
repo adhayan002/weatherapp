@@ -5,7 +5,6 @@ var inputvalue=document.querySelector(".inputValue")
 var name1=document.querySelector(".name")
 var desc=document.querySelector(".desc")
 var temp=document.querySelector(".temp")
-
     
 button.addEventListener("click",function(){
     fetch("https://api.openweathermap.org/data/2.5/weather?q="+inputvalue.value+
@@ -34,6 +33,6 @@ button.addEventListener("click",function(){
             document.body.style.backgroundImage=`url(${imgae})`
             
         })
-   
+    
 })
 
